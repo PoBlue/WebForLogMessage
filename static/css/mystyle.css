@@ -1,0 +1,149 @@
+.navbar-inverse{
+	/*background-color:todo;
+	 border-color:todo;
+	 */ }
+
+body{
+	background-color:#c3c3c3;
+}
+
+.fontSize{
+	font-size:19px;
+}
+
+.blogBox{
+	background-color:white;
+	margin-bottom:45px;
+	margin-bottom:45px;
+	padding:40px 40px;
+	box-shadow:5px 5px 15px;
+}
+
+.content p{
+
+	display: -webkit-box;
+	-webkit-line-clamp: 6;     
+	-webkit-box-orient: vertical;
+	height: 167px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+
+	font-size:19px;
+}
+
+.HeaderNav .navbar-brand{
+	color:black;
+	font-family:fantasy;
+}
+
+.side-nav{
+	color:black;
+	font-size:15px;
+}
+	
+
+.HeaderNav{
+	margin-top:10px;
+	width:100%;
+	background-color:#2781cf;
+	box-shadow: 6px 4px 16px;
+}
+
+.HeaderNav a{
+	color:white;
+}
+
+/*
+.HeaderNav .active :after{
+	margin-left: -5px;
+	position:absolute;
+	bottom: -1;
+	left:50%;
+	height: 0;
+	width: 0;
+	content: "";
+	vertical-align: middle;
+	border-left: 5px solid transparent;
+	border-bottom: 8px solid rgb(78,78,78);
+	border-right: 5px solid transparent;
+
+}
+*/
+
+.nav > li > a:hover,
+.nav > li > a:focus{
+	background-color:#00008B;	
+}
+nav{
+	font-size: 14px;
+}
+
+.icon-bar{
+	background:white;
+}
+
+.HeaderNav .navbar-toggle{
+	border-color:white;
+}
+
+.HeaderNav .navbar-toggle:hover,
+.HeaderNav .navbar-toggle:focus{
+	background-color:rgb(27, 107, 177);
+}
+
+#sidebar h2{
+	color:black;
+}
+
+#sidebar {
+	background:white;
+	box-shadow:26px 43px 24px;
+	/*border:1px solid;*/
+	border-radius:3px;
+	padding:25px;
+}
+
+.site-nav{
+	min-height: 35px;
+	height: 47px;
+}
+
+.navbar-brand{
+	font-size: 24px;
+	font-family: -webkit-body;
+}
+
+.navbar-inverse .navbar-brand{
+	color:white;
+}
+
+.main{
+	margin-top: 70px;
+	margin-bottom: 150px;
+}
+
+.super{
+	font-family: -webkit-pictograph;
+	font-weight: 100;
+	font-size: 160px;
+}
+
+#BlogTitle{
+	color:black;
+	font-family:fantasy;
+	font-size:70px;
+}
+
+#BlogTitle a{
+	color:#007AE2;
+}
+
+#BlogTitle a:hover,a:focus{
+	color:#23527c;
+	text-decoration:none;
+}
+
+.margin{
+	font-weight: 400;
+	color: dimgray;
+}
